@@ -200,7 +200,6 @@
 				</ul>
 				<ul id="main-nav" class="nav navbar-nav">
 					<!-- BEGIN navigation -->
-					<!-- IF function.displayMenuItem, @index -->
 					<div class="nav-dropdown">
 						<i class="fa fa-fw fa-plus"></i>
 						<div class="dropdown-content">
@@ -218,6 +217,7 @@
 							</a>
 					  	</div>
 					</div>
+					<!-- IF function.displayMenuItem, @index -->
 					<li class="{navigation.class}">
 						<a href="{navigation.route}" title="{navigation.title}" <!-- IF navigation.id -->id="{navigation.id}"<!-- ENDIF navigation.id --><!-- IF navigation.properties.targetBlank --> target="_blank"<!-- ENDIF navigation.properties.targetBlank -->>
 							<!-- IF navigation.iconClass -->

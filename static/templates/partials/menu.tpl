@@ -198,8 +198,9 @@
   						</ul>
 					</li>
 				</ul>
+
+				<!-- IF config.loggedIn -->
 				<ul id="main-nav" class="nav navbar-nav">
-					<!-- IF config.loggedIn -->
 					<li class="hidden-xs">
 						<div class="nav-dropdown">
 							<i class="fa fa-fw fa-plus"></i>
@@ -236,7 +237,6 @@
 							</a>
 						</div>
 					</li>
-					<!-- ENDIF config.loggedIn -->
 					<!-- BEGIN navigation -->
 					<!-- IF function.displayMenuItem, @index -->
 					<li class="{navigation.class}">
@@ -253,7 +253,8 @@
 					<!-- ENDIF function.displayMenuItem -->
 					<!-- END navigation -->
 				</ul>
-
+				<!-- ENDIF config.loggedIn -->
+				
 				<!-- ELSE -->
 				<ul class="nav navbar-nav navbar-right">
 					<li>

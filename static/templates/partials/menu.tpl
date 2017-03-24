@@ -199,7 +199,7 @@
 					</li>
 				</ul>
 
-				<!-- IF config.loggedIn -->
+				<!-- IF loggedIn -->
 				<ul id="main-nav" class="nav navbar-nav">
 					<li class="hidden-xs">
 						<div class="nav-dropdown">
@@ -253,8 +253,8 @@
 					<!-- ENDIF function.displayMenuItem -->
 					<!-- END navigation -->
 				</ul>
-				<!-- ENDIF config.loggedIn -->
-				
+				<!-- ENDIF loggedIn -->
+
 				<!-- ELSE -->
 				<ul class="nav navbar-nav navbar-right">
 					<li>

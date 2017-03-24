@@ -1,0 +1,17 @@
+{
+	"id": "nodebb-plugin-custom-persona-templates",
+	"name": "Custom Persona Templates",
+	"description": "Adds custom templates to the persona theme",
+	"url": "https://github.com/btw6391/nodebb-plugin-custom-persona-templates",
+	"library": "./library.js",
+	"hooks": [
+	],
+	"staticDirs": {
+		"static": "./static"
+	},
+	"less": [
+	],
+	"scripts": [
+	],
+	"templates": "static/templates"
+}

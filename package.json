@@ -1,0 +1,29 @@
+{
+  "name": "nodebb-plugin-custom-persona-templates",
+  "version": "0.1.0",
+  "description": "Adds custom templates to the persona theme",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btw6391/nodebb-plugin-custom-persona-templates.git"
+  },
+  "keywords": [
+    "NodeBB",
+    "plugin",
+    "custom",
+    "persona",
+    "templates"
+  ],
+  "author": "btw6391 <btw6391@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btw6391/nodebb-plugin-custom-persona-templates/issues"
+  },
+  "homepage": "https://github.com/btw6391/nodebb-plugin-custom-persona-templates#readme",
+  "nbbpm": {
+    "compatibility": "^1.4.0"
+  }
+}

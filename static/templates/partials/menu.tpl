@@ -198,10 +198,26 @@
   						</ul>
 					</li>
 				</ul>
-				<!-- TEST COMMENT -->
-				<ul id="main-nav" class="nav navbar-nav testing">
+				<ul id="main-nav" class="nav navbar-nav">
 					<!-- BEGIN navigation -->
 					<!-- IF function.displayMenuItem, @index -->
+					<div class="nav-dropdown">
+						<i class="fa fa-fw fa-plus"></i>
+						<div class="dropdown-content">
+							<a href="#" title="" id="newcase" data-original-title="New Case">
+								<i class="fa fa-fw fa-folder"></i>
+								<span class="visible-inline">New Case</span>
+							</a>
+					    	<a href="#" title="" id="newmodality" data-original-title="New Modality">
+								<i class="fa fa-fw fa-flask"></i>
+								<span class="visible-inline">New Modality</span>
+							</a>
+					    	<a href="#" title="" id="newtopic" data-original-title="New Topic">
+								<i class="fa fa-fw fa-comments"></i>
+								<span class="visible-inline">New Topic</span>
+							</a>
+					  	</div>
+					</div>
 					<li class="{navigation.class}">
 						<a href="{navigation.route}" title="{navigation.title}" <!-- IF navigation.id -->id="{navigation.id}"<!-- ENDIF navigation.id --><!-- IF navigation.properties.targetBlank --> target="_blank"<!-- ENDIF navigation.properties.targetBlank -->>
 							<!-- IF navigation.iconClass -->

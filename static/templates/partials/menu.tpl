@@ -199,9 +199,28 @@
 					</li>
 				</ul>
 				<ul id="main-nav" class="nav navbar-nav">
-					<div class="nav-dropdown hidden-xs-down">
-						<i class="fa fa-fw fa-plus"></i>
-						<div class="dropdown-content">
+					<li class="hidden-xs">
+						<div class="nav-dropdown">
+							<i class="fa fa-fw fa-plus"></i>
+							<div class="dropdown-content">
+								<a href="#" title="" id="newcase" data-original-title="New Case">
+									<i class="fa fa-fw fa-folder"></i>
+									<span class="visible-inline">New Case</span>
+								</a>
+						    	<a href="#" title="" id="newmodality" data-original-title="New Modality">
+									<i class="fa fa-fw fa-flask"></i>
+									<span class="visible-inline">New Modality</span>
+								</a>
+						    	<a href="#" title="" id="newtopic" data-original-title="New Topic">
+									<i class="fa fa-fw fa-comments"></i>
+									<span class="visible-inline">New Topic</span>
+								</a>
+						  	</div>
+						</div>
+					</li>
+
+					<li class="visible-xs">
+						<div>
 							<a href="#" title="" id="newcase" data-original-title="New Case">
 								<i class="fa fa-fw fa-folder"></i>
 								<span class="visible-inline">New Case</span>
@@ -214,23 +233,8 @@
 								<i class="fa fa-fw fa-comments"></i>
 								<span class="visible-inline">New Topic</span>
 							</a>
-					  	</div>
-					</div>
-
-					<div class="hidden-sm-up">
-						<a href="#" title="" id="newcase" data-original-title="New Case">
-							<i class="fa fa-fw fa-folder"></i>
-							<span class="visible-inline">New Case</span>
-						</a>
-				    	<a href="#" title="" id="newmodality" data-original-title="New Modality">
-							<i class="fa fa-fw fa-flask"></i>
-							<span class="visible-inline">New Modality</span>
-						</a>
-				    	<a href="#" title="" id="newtopic" data-original-title="New Topic">
-							<i class="fa fa-fw fa-comments"></i>
-							<span class="visible-inline">New Topic</span>
-						</a>
-					</div>
+						</div>
+					</li>
 
 					<!-- BEGIN navigation -->
 					<!-- IF function.displayMenuItem, @index -->

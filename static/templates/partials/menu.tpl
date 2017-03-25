@@ -205,15 +205,15 @@
 						<div class="nav-dropdown">
 							<i class="fa fa-fw fa-plus"></i>
 							<div class="dropdown-content">
-								<a href="#" title="" id="newcase" data-original-title="New Case">
+								<a href="#" id="newcase">
 									<i class="fa fa-fw fa-folder"></i>
 									<span class="visible-inline">New Case</span>
 								</a>
-						    	<a href="#" title="" id="newmodality" data-original-title="New Modality">
+						    	<a href="#" id="newmodality">
 									<i class="fa fa-fw fa-flask"></i>
 									<span class="visible-inline">New Modality</span>
 								</a>
-						    	<a href="#" title="" id="newtopic" data-original-title="New Topic">
+						    	<a href="#" id="newtopic">
 									<i class="fa fa-fw fa-comments"></i>
 									<span class="visible-inline">New Topic</span>
 								</a>

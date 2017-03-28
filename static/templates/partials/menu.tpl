@@ -211,7 +211,7 @@
 								</a>
 						    	<a href="#" id="newmodality">
 									<i class="fa fa-fw fa-flask"></i>
-									<span class="visible-inline">New Modality</span>
+									<span class="visible-inline">New Tx Modality</span>
 								</a>
 						    	<a href="#" id="newtopic">
 									<i class="fa fa-fw fa-comments"></i>
@@ -227,9 +227,9 @@
 								<i class="fa fa-fw fa-folder"></i>
 								<span class="visible-inline">New Case</span>
 							</a>
-					    	<a href="#" title="" id="newmodality" data-original-title="New Modality">
+					    	<a href="#" title="" id="newmodality" data-original-title="New Tx Modality">
 								<i class="fa fa-fw fa-flask"></i>
-								<span class="visible-inline">New Modality</span>
+								<span class="visible-inline">New Tx Modality</span>
 							</a>
 					    	<a href="#" title="" id="newtopic" data-original-title="New Topic">
 								<i class="fa fa-fw fa-comments"></i>

@@ -13,5 +13,6 @@
 	],
 	"scripts": [
 	],
-	"templates": "static/templates"
+	"templates": "static/templates",
+	"languages": "public/language"
 }

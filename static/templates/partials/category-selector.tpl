@@ -1,7 +1,7 @@
 
 <div component="category-selector" class="btn-group <!-- IF pullRight -->pull-right<!-- ENDIF pullRight -->">
 	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-		<span component="category-selector-selected">[[topic:thread_tools.select_category]]</span> <span class="caret"></span>
+		<span component="category-selector-selected">Select a category</span> <span class="caret"></span>
 	</button>
 	<ul class="dropdown-menu category-dropdown-menu" role="menu">
 		<!-- BEGIN categories -->
@@ -10,4 +10,4 @@
 		</li>
 		<!-- END categories -->
 	</ul>
-</div>html
+</div>

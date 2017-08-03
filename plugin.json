@@ -5,6 +5,12 @@
 	"url": "https://github.com/btw6391/nodebb-plugin-custom-persona-templates",
 	"library": "./library.js",
 	"hooks": [
+		{ "hook": "filter:teasers.get", "method": "getTeasers" },
+		{ "hook": "filter:widgets.getAreas", "method": "defineWidgetAreas" },
+		{ "hook": "filter:config.get", "method": "getThemeConfig" },
+		{ "hook": "static:app.load", "method": "init" },
+		{ "hook": "filter:admin.header.build", "method": "addAdminNavigation" },
+		{ "hook": "filter:topic.build", "method": "addUserToTopic" }
 	],
 	"staticDirs": {
 		"static": "./static"
@@ -12,7 +18,16 @@
 	"less": [
 	],
 	"scripts": [
+		"lib/persona.js",
+		"lib/modules/nprogress.js",
+		"lib/modules/autohidingnavbar.min.js",
+		"lib/modules/slideout.min.js",
+		"lib/modules/quickreply.js",
+		"lib/client/chats.js"
 	],
 	"templates": "static/templates",
-	"languages": "public/language"
+	"languages": "public/language",
+	"acpScripts": [
+		"lib/admin.js"
+	]
 }

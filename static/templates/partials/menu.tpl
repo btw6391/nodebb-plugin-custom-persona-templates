@@ -213,6 +213,10 @@
 									<i class="fa fa-fw fa-flask"></i>
 									<span class="visible-inline">New Tx Modality</span>
 								</a>
+								<a href="#" id="newtrial">
+									<i class="fa fa-fw fa-clipboard"></i>
+									<span class="visible-inline">New Clinical Trial</span>
+								</a>
 						    	<a href="#" id="newtopic">
 									<i class="fa fa-fw fa-comments"></i>
 									<span class="visible-inline">New Topic</span>
@@ -230,6 +234,10 @@
 					    	<a href="#" title="" id="newmodality" data-original-title="New Tx Modality">
 								<i class="fa fa-fw fa-flask"></i>
 								<span class="visible-inline">New Tx Modality</span>
+							</a>
+							<a href="#" title="" id="newtrial" data-original-title="New Clinical Trial">
+								<i class="fa fa-fw fa-clipboard"></i>
+								<span class="visible-inline">New Clinical Trial</span>
 							</a>
 					    	<a href="#" title="" id="newtopic" data-original-title="New Topic">
 								<i class="fa fa-fw fa-comments"></i>
